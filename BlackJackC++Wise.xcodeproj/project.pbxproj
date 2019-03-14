@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2EB0144223AA16B00D4EA42 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2EB0143223AA16B00D4EA42 /* main.cpp */; };
+		D2EB014C223AA17D00D4EA42 /* a7main.cc in Sources */ = {isa = PBXBuildFile; fileRef = D2EB014B223AA17D00D4EA42 /* a7main.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		D2EB0140223AA16B00D4EA42 /* BlackJackC++Wise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "BlackJackC++Wise"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2EB0143223AA16B00D4EA42 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D2EB014A223AA17700D4EA42 /* a7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = a7.h; sourceTree = "<group>"; };
+		D2EB014B223AA17D00D4EA42 /* a7main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = a7main.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		D2EB0142223AA16B00D4EA42 /* BlackJackC++Wise */ = {
 			isa = PBXGroup;
 			children = (
-				D2EB0143223AA16B00D4EA42 /* main.cpp */,
+				D2EB014B223AA17D00D4EA42 /* a7main.cc */,
+				D2EB014A223AA17700D4EA42 /* a7.h */,
 			);
 			path = "BlackJackC++Wise";
 			sourceTree = "<group>";
@@ -118,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2EB0144223AA16B00D4EA42 /* main.cpp in Sources */,
+				D2EB014C223AA17D00D4EA42 /* a7main.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
